@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div class="container" id="app">
+            <p>
+                Prénom : {{ firstname }} <br>
+                Nom : {{ lastname }} <br>
+                Nom complet : <input type="text" v-model="fullname"> <br>
+            </p>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.22/vue.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
